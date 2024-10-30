@@ -91,8 +91,6 @@ export const action = async ({ request }) => {
   };
 
   const newOrder = await createOrder(order);
-  console.log("order", order);
-  console.log("newOrder", newOrder);
 
   return redirect(`/order/${newOrder.id}`);
 };
