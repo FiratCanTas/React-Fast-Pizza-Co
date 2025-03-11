@@ -8,7 +8,7 @@ const CreateUser = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="mt-10 text-center">
       <p>👋 Welcome! Please start by telling us your name:</p>
 
       <input

@@ -2,7 +2,7 @@ import CreateUser from "../features/user/CreateUser";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mt-10">
       <h1 className="text-dark text-center text-xl font-semibold text-stone-500">
         The best pizza.
         <br />
