@@ -14,6 +14,7 @@ const SearchOrder = () => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
+        className="rounded-sm px-2"
         placeholder="Search order #"
         value={query}
         onChange={(e) => setQuery(e.target.value)}

@@ -13,16 +13,15 @@ const CreateUser = () => {
 
       <input
         type="text"
+        className="mt-4 w-72 rounded-sm px-2"
         placeholder="Your full name"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
 
-      {username !== "" && (
-        <div>
-          <button>Start ordering</button>
-        </div>
-      )}
+      <div className={username ? "visible" : "invisible"}>
+        <button className="pt-2">Start ordering</button>
+      </div>
     </form>
   );
 };
